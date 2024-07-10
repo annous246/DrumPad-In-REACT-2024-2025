@@ -1,0 +1,93 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  margin-top: 18em;
+  padding: 2em;
+  background-color: rgba(15, 252, 141, 0.87);
+  border: 0.08em solid black;
+  border-radius: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.2s all;
+}
+#drum-machine{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 18em;
+  padding: 2em;
+  background-color: rgba(15, 252, 141, 0.87);
+  border: 0.08em solid black;
+  border-radius: 1em;
+
+}
+#display{
+  display: flex;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  border: 0.08em solid black;
+  border-radius: 1em;
+  align-self: center;
+  padding: 1em;
+  text-align: center;
+  align-items: center;
+  margin: 1em;
+}
+button{
+  padding: 1em;
+  border-radius: 0.3em;
+  border: 0.08em solid black;
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 0.1em;
+
+
+}
+#drums{
+  display: grid;
+  grid-template-areas:
+  "QQ WW EE"
+  "AA SS DD"
+  "ZZ XX CC"
+  ;
+}
+#QQ{
+  grid-area: QQ;
+}
+#WW{
+  grid-area: WW;
+}
+#EE{
+  grid-area: EE;
+}
+#AA{
+  grid-area: AA;
+}
+#SS{
+  grid-area: SS;
+}
+#DD{
+  grid-area: DD;
+}
+#ZZ{
+  grid-area: ZZ;
+}
+#XX{
+  grid-area: XX;
+}
+#CC{
+  grid-area: CC;
+}
